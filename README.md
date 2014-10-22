@@ -1,10 +1,16 @@
 # Furtive Media Object
 
-A simple, extensible media object using `display: flex;`. Used in furtive.css.
+A simple, extensible media object using `display: flex;`. Used in [furtive.css](http://furtive.co).
+
+<http://caniuse.com/#search=flex>
 
 ## Installation
 
-Using [rework-npm](https://github.com/reworkcss/rework-npm):
+It's recommended to use [rework-npm](https://github.com/reworkcss/rework-npm):
+
+```
+npm install --save furtive-media-object
+```
 
 ```javascript
 var rework = require('rework'),
