@@ -1,14 +1,12 @@
-// From: http://philipwalton.github.io/solved-by-flexbox/demos/media-object/
-
-.media {
+.media-object {
   display: flex;
   align-items: flex-start;
 }
 
-.media .media-figure {
+.media-object-figure {
   margin-right: 1em;
 }
 
-.media .media-body {
+.media-object-body {
   flex: 1 0 0;
 }
